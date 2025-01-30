@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joko & Asih Wedding</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
+
+
+    <script src="Countdown/dist/simplyCountdown.js"></script>
+    <link rel="stylesheet" href="Countdown/src/themes/default.css" />
+    <script src="Countdown/dist/simplyCountdown.umd.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  </head>
+  <body>
+
+
+    <!-- hero s -->
+
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <div>
+        <h4>Kepada <span> Bapak/Ibu/Saudara/i, </span></h4>
+
+        <h1>Joko & Asih</h1>
+
+        <p>Akan melangsukan resepsi pernikahan dalam :</p>
+
+        <div id="Mycountdown" class="simply-countdown no-1"></div>
+        <br />
+        <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
+      </div>
+    </section>
+
+    <!-- hero e -->
+
+
+
+    <!-- navbar s -->
+      
+        <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+          <div class="container">
+            <a class="navbar-brand" href="#">Mahendar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  Mahendar
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#info">Info</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#story">Story</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#rsvp">RSVP</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gifts">Gifts</a>
+                  </li>
+                </ul>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      
+    <!-- navbar e -->
+
+
+
+    <!-- home s -->
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan pada 20 November 2025 di Bogor, Jawa Barat.</h3>
+            <p>
+              Oleh karena itu, dengan segala hormat, kami bermaksud untuk
+              mengundang Bapak/Ibu, Saudara/i, untuk hadir pada acara pernikahan
+              kami.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row couple mt-5">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-8 text-end">
+              <h3>Joko</h3>
+              <p>Lorem ipsum dolor, sit amet adipisicing elit. Consequatur et similique perferendis possimus eos?</p>
+              <p>Putra dari Bapak Lorem <br> dan <br> Ibu Ipsum</p>
+            </div>
+            <div class="col-4 poto">
+              <img src="aset/MV5BNmY5ODM0OWYtYTVjYy00MjdjLThmZTUtYjEwOWI3OTRhMTc1XkEyXkFqcGc@._V1_.jpg" alt="joko" class="img-responsive rounded-circle">
+            </div>
+          </div>
+        </div>
+        
+        <span class="heart"><i class="bi bi-arrow-through-heart-fill"></i></span>
+
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-4 poto">
+              <img src="aset/a4528da7b9b0792bc15a71de7269b693.jpg" alt="joko" class="img-responsive rounded-circle">
+            </div>
+            <div class="col-8 text-start">
+              <h3>Asih</h3>
+              <p>Lorem ipsum dolor, sit amet adipisicing elit. Consequatur et similique perferendis possimus eos?</p>
+              <p>Putra dari Bapak Ipsum <br> dan <br> Ibu Lorem</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- home e -->
+
+
+
+    <!-- info s -->
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat: Pedra do Macaco <br> Pontal do Atalaia,
+            Arraial do Cabo - State of Rio de Janeiro, Brasil</p>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.723142413606!2d-42.0130341!3d-22.9972061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9719241aff5d3d%3A0x6039b40afb1cb476!2sPedra%20do%20Macaco!5e0!3m2!1sid!2sid!4v1738134107333!5m2!1sid!2sid"
+                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <a href="https://maps.app.goo.gl/TUYTb8D2NTNoFboo8" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka</a>
+            <p class="deskripsi">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak ada tanda-tanda sedang dilangsungkan pernikahan, boleh jadi Anda salah jadwal, atau salah tempat.</p>
+          </div> 
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">Akad Nikah</div> 
+
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08.00 - 10.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar-event d-block"></i>
+                    <span>Selasa, 25 Maret 2026</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div> 
+
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>11.00 - Selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar-event d-block"></i>
+                    <span>Selasa, 25 Maret 2026</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- info e -->
+
+
+
+    <!-- story s -->
+
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Bagaimana cinta kami bersemi</span>
+            <h2>Our Story</h2>
+            <p>Ini cerita dari mulai awal kita bertemu sampai saat ini </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-img" style="background-image: url(aset/baard-hansen-jJuYXZdLg84-unsplash.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pertama bertemu</h3>
+                    <span>8 Maret 2009</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Optio saepe adipisci quas ad? Accusantium, dicta!</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-img" style="background-image: url(https://picsum.photos/300/300);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Mulai Serius</h3>
+                    <span>8 Mei 2013</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda,
+                       error ducimus esse illo eveniet suscipit et dolore dolores!</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-img" style="background-image: url(https://picsum.photos/301/301);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Tunangan</h3>
+                    <span>14 April 2017</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Optio saepe adipisci quas ad? Accusantium, dicta!</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- story e -->
+
+
+
+    <!-- gallery s -->
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Memory</span>
+            <h2>Gallery Photo</h2>
+            <p>Ini cerita dari mulai awal kita bertemu sampai saat ini </p>
+          </div>
+        </div>
+
+        <div class="row
+        row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+          <div class="col mt-3">
+            <a href="aset/gallery/1.webp" data-toggle="lightbox" data-caption="josi 1"
+            data-gallery="mygallery">
+              <img src="aset/gallery/thumbnail/1.jpg" alt="josi 1" class="img-fluid w-100
+              rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="aset/gallery/1.webp" data-toggle="lightbox" data-caption="josi 2"
+            data-gallery="mygallery">
+              <img src="aset/gallery/thumbnail/1.jpg" alt="josi 2" class="img-fluid w-100
+              rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="aset/gallery/1.webp" data-toggle="lightbox" data-caption="josi 3"
+            data-gallery="mygallery">
+              <img src="aset/gallery/thumbnail/1.jpg" alt="josi 3" class="img-fluid w-100
+              rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="aset/gallery/1.webp" data-toggle="lightbox" data-caption="josi 4"
+            data-gallery="mygallery">
+              <img src="aset/gallery/thumbnail/1.jpg" alt="josi 4" class="img-fluid w-100
+              rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="aset/gallery/1.webp" data-toggle="lightbox" data-caption="josi 5"
+            data-gallery="mygallery">
+              <img src="aset/gallery/thumbnail/1.jpg" alt="josi 5" class="img-fluid w-100
+              rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="aset/gallery/1.webp" data-toggle="lightbox" data-caption="josi 6"
+            data-gallery="mygallery">
+              <img src="aset/gallery/thumbnail/1.jpg" alt="josi 6" class="img-fluid w-100
+              rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="aset/gallery/1.webp" data-toggle="lightbox" data-caption="josi 7"
+            data-gallery="mygallery">
+              <img src="aset/gallery/thumbnail/1.jpg" alt="josi 7" class="img-fluid w-100
+              rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="aset/gallery/1.webp" data-toggle="lightbox" data-caption="josi 8"
+            data-gallery="mygallery">
+              <img src="aset/gallery/thumbnail/1.jpg" alt="josi 8" class="img-fluid w-100
+              rounded">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- gallery e -->
+
+
+
+    <!-- rsvp s -->
+
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Konfirmansi Kehadiran</h2>
+            <p>Isi form di bawah ini untuk melakukan konfirmasi kehadiran </p>
+          </div>
+        </div>
+
+
+
+  <form class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+  method="POST" 
+  action="https://script.google.com/macros/s/AKfycbyFyqAl8OrwO0L4Q_10z7C7PvVRWsQWOqK0ROtkfhXgROW5J_d4WL3R5cAjiqB0YIOr/exec" id="my-form">
+    <div class="col-12">
+        <div class="mb-3">
+          <label for="nama" class="form-label">Nama</label>
+          <input type="text" class="form-control" id="nama" name="Nama">
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="mb-3">
+          <label for="jumlah" class="form-label">Jumlah</label>
+          <input type="number" class="form-control" id="jumlah" name="Jumlah" min="1" max="5" lenght="1" value="1">
+        </div>   
+    </div>
+    <div class="col-12">
+        <div class="mb-3">
+          <label for="status" class="form-label">Konfirmasi</label>
+          <select name="Status" id="status" class="form-select">
+            <option selected>Pilih Salah Satu</option>
+            <option value="Hadir">Hadir</option>
+            <option value="Tidak Hadir">Tidak Hadir</option>
+          </select>
+        </div>   
+    </div>
+    <div class="col-12" style="margin-top: 35px;">
+      <button type="submit" class="btn btn-primary">Kirim</button>
+    </div>
+  </form>
+
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-6">
+        <div id="disqus_thread"></div>
+        <script>
+          /**
+          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+          /*
+          var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+          */
+          (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://mahendar-wedding.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+      </div>
+    </div>
+
+      </div>
+    </section>
+
+    <!-- rsvp e -->
+
+
+
+    <!-- gifts s -->
+
+    <section id="gifts" class="gifts">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Ungkapan Tanda Kasih</span>
+            <h2>Kirim Hadiah</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, incidunt.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+          <div class="col-md-6">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="fw-bold">BCA</div>
+                123456789 - Joko
+              </li>
+              <li class="list-group-item">
+                <div class="fw-bold">MANDIRI</div>
+                987654321 - Asih
+              </li>
+              <li class="list-group-item">
+                <div class="fw-bold">Saweria</div>
+                <img src="aset/saweria.png" alt="Saweria QR" class="img-thumbnail" width="150">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gifts e -->
+
+
+
+    <!-- footer s -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block">Copyright &copy; 2025 Mahendar Wedding. All Rights Reserved.</small>
+            <small class="block">Design by <a href="https://instagram.com/ditesibot">@ditesibot</a>.</small>
+
+            <ul class="mt-3">
+              <li><a href="https://www.threads.net/@ditesibot?xmt=AQGzqM6bPgpRJJK9W0rJAS4IqFcmS_IXO8_qeMMWxdr3azQ"><i class="bi bi-threads"></i></a></li>
+              <li><a href="https://instagram.com/ditesibot"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="https://www.youtube.com/@DiteBot"><i class="bi bi-youtube"></i></a></li>
+              <li><a href="https://x.com/diteeev3"><i class="bi bi-twitter-x"></i></a></li>             
+              <li><a href="https://www.tiktok.com/@enditeee"><i class="bi bi-tiktok"></i></a></li>              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer e -->
+
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="audio/Different Heaven - Safe & Sound [NCS Release].mp3" type="audio/mp3">
+      </audio>
+
+      <div class="audio-icon-wrapper" style="display: none;">
+        <i class="bi bi-disc"></i>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+      simplyCountdown("#Mycountdown", {
+        year: 2026,
+        month: 3,
+        day: 25,
+        enableUtc: false,
+      });
+    </script>
+
+    <script>
+
+      const hamburger = document.querySelector('.navbar-toggler');
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+      
+      offcanvas.addEventListener('show.bs.offcanvas', function (){
+        stickyTop.style.overflow = 'visible';
+      });
+
+      offcanvas.addEventListener('hidden.bs.offcanvas', function (){
+        stickyTop.style.overflow = 'hidden';
+      });
+
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js">
+    </script>
+
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector(".audio-icon-wrapper");
+      const audioIcon = document.querySelector(".audio-icon-wrapper i");
+      const song = document.querySelector('#song')
+      let isPlaying = false;
+
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function() {
+          window.scrollTo(scrollTop, scrollLeft);
+        }
+
+        
+        rootElement.style.scrollBehavior = 'auto';
+      }
+
+      function enableScroll() {
+        window.onscroll = function() { }
+        rootElement.style.scrollBehavior = 'smooth';
+        // localStorage.setItem('opened', 'true')
+        playAudio();
+      }
+
+      function playAudio() {        
+        song.volume = 0.1;
+        audioIconWrapper.style.display = 'flex';
+        song.play();
+        isPlaying = true;
+      }
+
+      audioIconWrapper.onclick = function(){
+        if (isPlaying) {
+          song.pause();
+          audioIcon.classList.remove('bi-disc');
+          audioIcon.classList.add('bi-pause-circle');
+        } else {
+          song.play();
+          audioIcon.classList.add('bi-disc');
+          audioIcon.classList.remove('bi-pause-circle');
+        }
+
+        isPlaying = !isPlaying;
+      }
+
+      // if(!localStorage.getItem('opened')){
+      //   disableScroll();
+      // }
+      disableScroll();
+      
+    </script>
+
+    <script>
+
+      window.addEventListener("load", function () {
+          const form = document.getElementById('my-form');
+          form.addEventListener("submit", function (e) {
+            e.preventDefault();
+            const data = new FormData(form);
+            const action = e.target.action;
+            fetch(action, {
+              method: 'POST',
+              body: data,
+            })
+              .then(() => {
+                alert("Konfirmasi Kehadiran Berhasil Terkirim!");
+              })
+          });
+        });
+
+    </script>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const nama = urlParams.get('n') || '';
+      const pronoun = urlParams.get('p' ) || 'Bapak/Ibu/Saudara/i';
+
+      const namaContainer = document.querySelector('.hero h4 span');
+      namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ',');
+
+      document.querySelector('#nama').value = nama;
+    </script>
+
+  </body>
+</html>
